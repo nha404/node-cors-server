@@ -59,7 +59,7 @@ app.post("/issue-2", cors(issue2options), (req, res) => {
 /* -------------------------------------------------------------------------- */
 
 if (!module.parent) {
-  const port = process.env.PORT || 3001;
+  const port = process.env.PORT || 3010;
 
   app.listen(port, () => {
     console.log("Express server listening on port " + port + ".");
